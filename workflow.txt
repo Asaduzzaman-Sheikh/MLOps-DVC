@@ -11,4 +11,6 @@ STEPS:
 7. Keep it tracked by git - git add data.dvc
 8. Check both git and dvc whether up to date
 9. Commit and push data inside the S3 bucker - dvc commit, dvc push
-10. 
+10. Make some changes to the Python main file to add new data 
+11. Make dvc commit and dvc push each time the data is modified
+12. Simialry for the git commit and push
