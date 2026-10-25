@@ -5,3 +5,8 @@ STEPS:
 1. Create a Python file and then initialize the git
 2. Perform all the tasks related to git first
 3. Initialize the DVC- dvc init
+4. Make a S3 bucket to the current working directory - mkdir S3
+5. Connect the bucket with remote repo - dvc remote add -d myremote S3 (url)
+6. Add all the files inside the data - dvc add data/
+7. Keep it tracked by git - git add data.dvc
+8. Check both git and dvc whether up to date
