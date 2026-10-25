@@ -1,0 +1,5 @@
+This file contains the steps to work with DVC
+
+STEPS:
+====================================================================================
+1. Create a Python file and then initialize the git
