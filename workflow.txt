@@ -10,3 +10,5 @@ STEPS:
 6. Add all the files inside the data - dvc add data/
 7. Keep it tracked by git - git add data.dvc
 8. Check both git and dvc whether up to date
+9. Commit and push data inside the S3 bucker - dvc commit, dvc push
+10. 
